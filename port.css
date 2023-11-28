@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'serif', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-left: 45.5%;
+    padding: 20px;
+}
+
+
+.my-main {
+   font-family: serif !important;
+}
+
+
+.navbar-nav .nav-link {
+    color: #66fcf1 !important;
+    font-family: 'serif', sans-serif !important;
+}
+
+.navbar-brand{
+	color: #66fcf1;
+}
+
+.card {
+; /* Adjust the margin as needed */
+    overflow: hidden;
+}
+
+
+
+
+.container{
+	color: #66fcf1;
+
+}
+div.card-body{
+    background-color: #f8fcff;
+    overflow: hidden;
+    overflow: hidden;
+
+
+	
+
+    
+}
+
+.card{
+
+	background-color: #66fcf1;
+
+}
+
+footer {
+    margin-top: 15%;
+    padding-top: 3px;
+    border-top: 1px solid #66fcf1;
+    padding: %;
+
+}
+
+.footer{
+    color: #66fcf1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    color: inherit;
+    padding-top: 1.5%;
+
+}
+
+.bi{
+    margin-top: 1%;
+
+    margin: 10px;
+    
+}
