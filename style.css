@@ -1,0 +1,140 @@
+html,
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background for neon effect */
+    color: #ffffff; /* White text for contrast */
+    height: 100vh;
+}
+
+.content {
+    padding: 30px;
+    background: #2a2a2a; /* Darker background for content area */
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ffcc; /* Neon teal color */
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5); /* Neon glow effect */
+}
+
+.p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e0e0e0; /* Light gray text for better readability */
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    background: #3a3a3a; /* Dark gray for portfolio items */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center text */
+}
+
+.portfolio-item img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    max-height: 200px; /* Limit height for uniformity */
+    object-fit: cover; /* Cover the entire area without stretching */
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem; /* Adjust heading size */
+    color: #00ffcc; /* Neon teal color */
+    margin: 10px 0; /* Spacing for headings */
+}
+
+.portfolio-item p {
+    font-size: 1rem; /* Adjust paragraph size */
+    color: #e0e0e0; /* Light gray text for better readability */
+}
+
+
+footer {
+    padding: 20px;
+    background: #00ffcc; /* Neon teal footer */
+    color: #000; /* Black text for footer */
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #000; /* Black links for better visibility */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #1a1a1a; /* Dark background on hover */
+    background: #00ffcc; /* Neon teal background on hover */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Ensure the card items stack vertically */
+    height: 100%; /* Make the card fill the column height */
+}
+
+.card-body {
+    flex-grow: 1; /* Allow the body to grow to fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly */
+}
+
+@keyframes neon-border {
+    0% {
+        border-color: #00ffcc; /* Neon teal color */
+        box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+    }
+    50% {
+        border-color: #00e5c0; /* Slightly different teal for variation */
+        box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+    100% {
+        border-color: #00ffcc; /* Back to the original neon teal */
+        box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Ensure the card items stack vertically */
+    height: 100%; /* Make the card fill the column height */
+    border: 2px solid transparent; /* Start with transparent border */
+    animation: neon-border 1.5s ease-in-out infinite alternate; /* Neon border animation */
+}
+
+/* Styles for the View All button in the portfolio section */
+.btn-view-all {
+    border: none; /* No border for the View All button */
+    background-color: transparent; /* Background color */
+    color: #00ffcc; /* Text color */
+    font-size: 1.25rem; /* Font size for emphasis */
+    text-decoration: underline; /* Underline for better visibility */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.btn-view-all:hover {
+    color: #00e5c0; /* Change color on hover */
+}
+
+
